@@ -1,0 +1,67 @@
+html{font-size: 16px;}
+*{margin:0 auto;}
+.clear{clear: both}
+a{text-decoration: none;color: #8baece;}
+.one a{float: right;}
+.one{height: 36px;background: #00306b;width: 100%;}
+.one span{float: right;color: #8baece;padding:5px 10px;cursor: pointer;}
+/*以上是第一部分*/
+.two{background: #1053a4;border-bottom: 0.5px solid #9ad68fe0}
+.maxlength{max-width: 1200px;width: auto;margin:0 auto;height: 105px}
+.img2{float: left;}
+.search{float:right;width: 250px;}
+.kaosheng{float: right;margin-top: 60px;padding-right: 10px}
+.search1{width: 200px;height: 30px;margin-top: 50px}
+.sousuo{position: relative;height: 35px;width: 30px;top: 13px;left: -4px;cursor: pointer;}
+/*以上是第二部分搜索栏*/
+.three{background: #1053a4}
+.bigul{height: 55px;margin:0 auto;max-width: 1160px;padding:0;}
+.three li{list-style: none;position: relative;}
+.bigul li{float: left;padding:2px 10px;line-height: 50px;border: 0.5px solid #a0c19a66 }
+.bigul li .smallul{display: none;padding:0; position: absolute;left: 0px;top: 54px;width: 105px;}
+.three a{display: block;font-size: 1.3rem;color: white}
+.bigul li:hover .smallul{display: block;}
+.bigul li .smallul li{float: none;background:#1053a4 }
+.bigul li a:hover{color: orange;}
+.bigul li .smallul li:hover{background: #8baece}
+/*以上是第三部分*/
+.four{width: 100%}
+.hua{max-width: 1400px}
+/*以下是最难的地方*/
+.five{max-width: 1400px}
+.left{float: left;width: 15%}
+ul{padding-left:2%;padding-top:24px;font-size: 1.1rem;line-height: 37px }
+li{list-style: none}
+.list1{background: #449ce8a6;padding-left: 4%;color: white}
+.list2{padding:8px 0;text-align: center;background: #eee;border:1px solid #ded8d854;cursor: pointer;}
+.map a{color: black}
+.list2:hover{background: #4ee0cb4a;}
+/*以下是右边的块*/
+.right{float: right;width: 80%}
+.rightTop{padding-top: 24px;height: 40px;border-bottom: 1px solid #775a5a8a}
+.rightTopL{float: left;color: #53a3c1;font-size: 1.5rem;}
+.rightTopR{float: right;padding-top: 8px}
+.rightC{text-indent:2em;line-height: 35px;padding-top:23px;font-size: 1.22rem}
+
+.right1{float: right;width: 80%;display: none}
+.rightC1{text-indent:2em;line-height: 35px;padding-top:23px;font-size:1rem}
+.center1{text-align: center;font-weight: 800;font-size: 1.5rem;}
+.center2{text-align: center;padding-bottom: 20px}
+.center3{text-align: center;font-weight: 500;font-size: 1.25rem}
+/*最后一部分*/
+/*以下是最下面的部分*/
+.seven{background:#094897 }
+.box7{margin:0 auto;max-width:1325px;height: 120px;padding-top: 32px}
+.sevenr img{float: left;}
+.jinhui{background: url(images/jinghui1.png)no-repeat;height: 21px;width: 23px;display: inline-block;}
+.sevenr{width: 50%;color: white;float: left;}
+.gongan{padding-left: 75px;padding-top: 5px}
+.banquan{padding-bottom: 4px}
+/*这是左边的模块*/
+.sevenl{width: 50%;float: left;}
+.selector{font-size: 1.1rem;height: 40px;background:#a1bfe4 }
+.information{padding-top: 20px;float: right;}
+
+.fiveP a:hover{text-decoration: underline}
+
+.firstP,.lastP{text-indent: 2em;padding:21px;line-height: 33px}

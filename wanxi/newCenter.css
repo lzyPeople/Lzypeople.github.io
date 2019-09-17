@@ -1,0 +1,107 @@
+html{font-size: 16px;}
+*{margin: 0 auto;}
+.clear{clear: both}
+.one{max-width: 1560px}
+.logo{padding-left: 2%;padding-top: 20px}
+/*以下是第二部分*/
+.two{background: #8c8c5e5e;height:65px }
+a{text-decoration: none}
+li{list-style: none}
+.boxTwo{max-width: 1560px}
+.twoUl1{float: left;}
+.twoUl1 li{height: 35px;position: relative;}
+ul li{font-size: 1.35rem;float: left;padding: 15px}
+/*以上是一级设置*/
+.pullDown{background:#8fa596;display: none;position: absolute;height: 237px;width: 1450px}
+.twoDl{float: left;}
+.twoDl dt{height: 58px;line-height: 58px}
+.twoDl dd{font-size: 1rem;height: 28px;line-height: 28px}
+.pl{padding-left:13%;}
+.p1{left:-65px;top: 65px; }
+.p2{left:-181px;top: 65px;}
+.pl1{padding-left: 2%}
+.twoUl1 a{color:#551313f0}
+.twoUl1 dd a{color: #285518eb}
+.twoUl1 li:hover .pullDown{display: block}
+.twoUl1 dd a:hover{color: #bf9fbe70}
+.twoUl1 li:hover{background: #f3d0d0f0}
+/*以上是二级设置*/
+.content{max-width: 1560px;height: 905px}
+.boxFirst{width: 373px;float:left;}
+.box{background:#9eb79e26;border: 1px solid;margin:10px 0 0 20px;box-shadow: 10px 10px 5px #888888;border-radius: 10px}
+
+.boxFirstOne{height:155px;}
+.boxFirstOneXx{padding-bottom: 5px;padding-top: 5px;font-size: 1.1rem;padding-left: 10px;color: green;}
+.boxFirstOneC img{float: left;padding-left: 10px;width: 23%}
+.boxFirstOneCr{float: left;padding-left:27px;}
+.boxFirstOneFoot{clear: both;padding:7px;}
+/*以上是第一块第一部分*/
+.boxFirstTwoC{float: left;}
+.boxFirstTwoC a{float: left;}
+.boxFirstTwo{height: 380px}
+.boxFirstTwoCD{float: left;padding:8px 26px;}
+.xiuP5{padding:5px 27px;}
+.xiuPT7{padding-top:7px;}
+.boxFirstTwoCD1{text-align: center}
+.boxFirstTwoC a:hover .boxFirstTwoCD {background: #d4aaaa30}
+.more{float: right;padding-top: 9px}
+/*以上是第一块第二部分*/
+.boxFirstThree{height: 200px}
+.wuPiao{height: 177px;line-height: 177px;text-align: center;;font-size: 1.5rem}
+/*以上是第一块第三部分*/
+/*以上是第一块*/
+.boxSecond{float: left;width: 700px}
+.boxSecondC{height: 185px;border-top: 2px solid #8e737399;}
+.boxSecondC1{height: 185px;width:25%;float: left;border-right:1px solid #8e737399;}
+.boxSecondC1H{height: 44px;line-height: 44px;font-size: 1.5rem;padding-left: 15px}
+.boxSecondC1P{padding:7px 0 7px  17px;}
+.boxSecondC1P span{padding-left: 20px}
+.widthS{width: 24%}
+.boxSecondC1P .boxSecondC1PS{padding-left:0;}
+.boxSecondOne{height: 216px}
+/*以上是第二块第一部份*/
+.script1{display: block}
+.script2{display: none}
+.script3{display: none}
+.boxSecondTwo{height: 250px}
+.boxSecondTwoB{height: 32px;border-bottom:1px solid #92bb9299;}
+.boxSecondTwoBL{float: left;}
+.secondLayout{float: left;padding:6px;cursor: pointer;}
+.secondLayout:hover{background:#b79595}
+.boxSecondTwoBR{float: right;padding:5px;}
+.boxSecondTwoC{height: 180px}
+.boxSecondTwoC a{float: left;padding:5px 0;color: #67675b}
+.boxSecondTwoC a:hover{background:#6d9ad6b0}
+.boxSecondTwoCC{float: left;width: 675px}
+.boxSecondTwoCCP{float: left}
+.biaoji{float: left;padding:0 12px;}
+.secondSpan1{float: right;}
+.secondSpan2{float: right;}
+/*以上是第二块第二部分*/
+/*以上是第二块*/
+.boxThird{float: left;width: 420px}
+.boxThirdOne{height: 188px}
+.boxThirdOneC{padding-left: 20px;height: 75px;line-height: 75px}
+.boxThirdOneC span{padding-left: 20px;font-size: 1.35rem;color: red}
+.boxThirdOneF{float: right;padding:20px;}
+.boxThirdOneF a{color: green}
+/*以上是第三块第一部分*/
+.boxThirdTwo{height: 565px}
+.tableBox{width: 100%}
+.tableTr{height: 28px;line-height: 28px;}
+.tableTr:hover{background: #6caf6c36}
+.tableTd{width: 50%;border:1px solid #2937958c;;padding-left: 12px}
+/*以上是第三块第二部分*/
+/*以上是第三块的内容*/
+.footer{width: 100%;background: #71847196}
+.footerType{text-align: center;height: 60px;line-height: 60px}
+.footerType span{padding-left: 10px;font-size: 0.75rem}
+
+
+
+@media screen and (max-width: 1100px) {
+.boxSecond {display: none;}
+}
+@media screen and (max-width: 1519px) {
+.boxThird{display: none}
+}
