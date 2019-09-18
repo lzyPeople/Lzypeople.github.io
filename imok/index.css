@@ -1,0 +1,66 @@
+html{font-size: 5vw;width:100%;height: 100%}
+body{width: 100%;padding:0;margin: 0;position: absolute;/*overflow-x:hidden;*/}
+.xianshi img{width: 100%;}
+.clear{clear: both}
+
+.miao img{width: 20%;float: left;padding:15px;}
+.daojishi{width: 45%;float: left;padding-top: 10px;padding-left: 5px}
+.box{width:20%;}
+.daojishi div{float: left;}
+.bg{background: black;color: white;border:0.4px white solid;border-radius:3px;font-size: 1.25rem}
+.overType{padding-top: 15px}
+/*以上是第二部分*/
+
+
+.third1{width: 50%;float: left;}
+
+.goodsg img{width: 100%;float: left;}
+.goodsm img{width: 35%;float:left;margin-top:-41%;padding-left:8%;}
+.name{text-align: center;font-size: 0.7rem;}
+.join{float: right;}
+.join img{width: 79%;float: right;}
+.third2{width: 50%;float: left}
+
+.nprice-font{
+ font-size:0.9rem;
+ color: red;
+ margin-left:0px; 
+}
+.bprice-font{
+	font-size: 0.5rem;
+	color: gray;
+	text-decoration: line-through;
+}
+/*以上是第三部分*/
+.see{font-size: 1rem;text-align: center;background:#8080802e;
+	padding:5px 0;}
+a{text-decoration: none;color:black;}
+.top2 img{width: 100%}
+.twoy{width: 51%;float: left;margin-top:8px;}
+.now-price{float: left}
+.before-price{float: left;margin-top:8%}
+.two{float:right;font-size: 0.6rem;margin-top: 5%;margin-right: 16%;color: white;}
+.twobg{width: 43%;background: url(picture/pingt.png)no-repeat;
+background-size:100% auto;height: 32px;float: right;margin-top:3px;}
+.eighth img{width: 100%}
+/*到领券的那张图了*/
+.jine{width:50%;float: left;background:url(picture/quan.png)no-repeat;background-size: 100%;margin-top:5px;height: 77px;color:white}
+.j1{font-size: 2.2rem;position: relative;top:12% ;left:11% ;float: left;}
+.j2{font-size: 0.5rem;float: left;margin: 23% 0 0 15%}
+.j3{font-size: 1rem;position: relative;top: 10px;left: -4%;float: right;width: 20%;color: white}
+.tenth{background:#8080802e;text-align: center;font-size: 1.5rem;padding:3% 0 3% 0; }
+/*以下是任意位置效果图*/
+.goodbk img{width: 38%;float: right;padding-left:8%;margin-top: -38%}
+.gooddz img{width: 25%;float: left;padding-left:8%;margin-top: -71%}
+
+
+.eleventh{width: 100%;position: fixed;background: white;bottom: 0px;opacity: 0.8}
+.p1{width: 20%;float: left;}
+
+.t1 img{width: 33%;margin-top: 7%;margin-left: 34%}
+
+.zi{text-align: center;font-size: 0.8rem;color: gray;text-decoration:none;padding-bottom: 7% }
+.zi4{padding-top:5%;padding-left: 6%}
+a{text-decoration: none}
+.t4{padding-top:3%;padding-left: 6% }
+br{line-height: 100px}
