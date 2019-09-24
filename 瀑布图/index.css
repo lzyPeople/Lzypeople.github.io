@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    vertical-align: top
+}
+
+#main {
+    position: relative;
+}
+
+.box {
+    padding: 20px 0 0 20px;
+    float: left;
+}
+
+.pic {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.pic img {
+    width: 165px
+}
