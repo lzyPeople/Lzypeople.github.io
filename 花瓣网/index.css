@@ -1,0 +1,564 @@
+/************头部开始************/
+#top {
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: #fff;
+}
+
+/***左边***/
+.top-left {
+    float: left;
+    width: 55rem;
+}
+
+.top-left ul {
+    height: 3rem;
+    line-height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem
+}
+
+.top-left li {}
+
+.top-left ul li:first-child a {
+    background: url('images/huaban_logo.png')no-repeat;
+    height: 3rem;
+    width: 8.2rem;
+}
+
+.top-left li a {
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.top-left li span {
+    background: #f80;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.top-left li:last-child {
+    line-height: 2rem
+}
+
+.top-left li:last-child a {
+    font-size: 4rem;
+    line-height: 0.2rem
+}
+
+/****中间****/
+.top-center {
+    float: left;
+    height: 5rem;
+    width: 63rem;
+}
+
+.top-center .top-center-input {
+    height: 3.5rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    width: 60rem;
+}
+
+/***右边****/
+.top-right {
+    float: right;
+    width: 12rem;
+    margin-top: 0.8rem;
+}
+
+.top-right .top-right-register {
+    float: left;
+    background: #D43636;
+}
+
+.top-right .top-right-login {
+    float: right;
+}
+
+.top-right .top-right-register,
+.top-right .top-right-login {
+    width: 5rem;
+    height: 3.5rem;
+    border: 1px solid #c90000;
+    line-height: 3.5rem;
+    text-align: center;
+    border-radius: 0.2rem;
+}
+
+/****************头部结束**************/
+
+
+/******************广告开始*****************/
+.advertisement-action {
+    margin-top: 5rem;
+    height: 6rem
+}
+.advertisement-action ul{
+    width: 100%;
+    height: 6rem;
+    position: relative;
+}
+.advertisement-action ul li{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+}
+.advertisement-action ul li a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.advertisement-action ul li:nth-child(1) a{
+    background: url("images/top_banner01.jpg") center center;
+}
+
+.advertisement-action ul li:nth-child(2) a{
+    background: url("images/top_banner02.jpg") center center;
+}
+
+.advertisement-action ul li:nth-child(3) a{
+    background: url("images/top_banner03.jpg") center center;
+}
+
+.advertisement-action ul li:nth-child(4) a{
+    background: url("images/top_banner04.jpg") center center;
+}
+
+.advertisement-action ul li:nth-child(5) a{
+    background: url("images/top_banner05.jpg") center center;
+}
+
+.advertisement-action ul li:nth-child(1) a{
+    background: url("images/top_banner01.jpg") center center;
+}
+
+.advertisement-action ul li:nth-child(6) a{
+    background: url("images/top_banner06.jpg") center center;
+}
+
+.advertisement-action ul li:nth-child(7) a{
+    background: url("images/top_banner07.jpg") center center;
+}
+
+
+/*******************广告结束*****************/
+
+/******************登陆开始*************************/
+#login {
+    height: 12rem;
+    width: 100%;
+    background: url('images/login_header_blurbg.jpg')no-repeat center center;
+}
+
+#login .login-flex {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+#login .login-flex .login-left {
+    margin-top: 3rem
+}
+
+#login .login-flex .login-left h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#login .login-flex .login-right {
+    margin-top: 2rem;
+    position: relative;
+}
+
+#login .login-flex .login-right li {
+    float: left;
+    margin-right: 1rem
+}
+
+#login .login-flex .login-right li a {
+    height: 5.4rem;
+    width: 5.4rem;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+#login .login-flex .login-right li:nth-child(1) a {
+    background: url('images/icon.jpg')no-repeat 0 0;
+}
+
+#login .login-flex .login-right li:nth-child(2) a {
+    background: url('images/icon.jpg')no-repeat -8rem 0;
+}
+
+#login .login-flex .login-right li:nth-child(3) a {
+    background: url('images/icon.jpg')no-repeat -16rem 0;
+}
+
+#login .login-flex .login-right li:nth-child(4) a {
+    background: url('images/icon.jpg')no-repeat -24rem 0;
+}
+
+#login .login-flex .login-right .left-line {
+    position: absolute;
+    border: 1px solid #fff;
+    display: block;
+    width: 5rem;
+    top: 7.3rem;
+    background: white;
+    left: -3rem;
+}
+
+#login .login-flex .login-right .right-line {
+    position: absolute;
+    border: 1px solid #fff;
+    display: block;
+    width: 5rem;
+    top: 7.3rem;
+    background: white;
+    left: 24rem;
+}
+
+#login .login-flex .login-right span {
+    margin-left: 3rem
+}
+
+/******************登陆结束**************************/
+
+
+/******************吸顶开始*********************************/
+#suction {
+    display: none;
+    height: 7rem;
+    width: 100%;
+    position: fixed;
+    top: 5rem;
+    left: 0;
+    z-index: 99;
+    background: blue;
+    opacity: 0.8;
+    background: url('images/login_header_blurbg.jpg')no-repeat center center;
+}
+
+#suction .suction-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#suction .suction-flex .suction-left {
+    margin-top: 0.65rem;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+/***右边********/
+#suction .suction-flex .suction-left h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+#suction .suction-flex .suction-right {
+    height: 7rem;
+    line-height: 7rem;
+}
+
+#suction .suction-flex .suction-right ul li {
+    float: left;
+    margin-right: 0.5rem;
+    color: #fff;
+    font-size: 1.4rem
+}
+
+#suction .suction-flex .suction-right ul li:nth-child(2) a {
+    background: url('images/icon2.png')no-repeat 0 0;
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+#suction .suction-flex .suction-right ul li:nth-child(3) a {
+    background: url('images/icon2.png')no-repeat -5rem 0;
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+#suction .suction-flex .suction-right ul li:nth-child(4) a {
+    background: url('images/icon2.png')no-repeat -10rem 0;
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+#suction .suction-flex .suction-right ul li:nth-child(5) a {
+    background: url('images/icon2.png')no-repeat -15rem 0;
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+/*******************吸顶结束******************************/
+
+
+/*******************美图开始******************************/
+.meitu-w {
+    margin: 0 auto;
+    width: 20rem;
+    position: relative;
+    text-align: center;
+    line-height: 15rem;
+    height: 15rem;
+}
+
+.meitu-w span {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.meitu-w .meitu-left {
+    position: absolute;
+    border-bottom: 1px solid #333;
+    top: 7.5rem;
+    left: 1rem;
+    display: block;
+    width: 5rem;
+}
+
+.meitu-w .meitu-right {
+    position: absolute;
+    border-bottom: 1px solid #333;
+    top: 7.5rem;
+    left: 14rem;
+    display: block;
+    width: 5rem;
+}
+
+/*******************美图结束******************************/
+
+
+/******************主要内容开始***************************/
+.main-w .main-ul {
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 2rem;
+    width: 26rem;
+    display: flex;
+    justify-content: space-around;
+    height: 4rem
+}
+
+.main .main-w .main-ul li {
+    width: 33%;
+    text-align: center
+}
+
+.main-w ul .main-li-current {
+    border-bottom: 1px solid #f80;
+}
+
+.main-content .main-one {
+    display: block
+}
+
+.main-content .main-two {
+    background: green;
+    display: none
+}
+
+.main-content .main-three {
+    background: yellow;
+    display: none
+}
+
+/******第一块的内容*********/
+/*****第一块内容的头部******/
+.main-one-brief {
+    margin-top: 1rem
+}
+
+.main-w .main-content .main-one .main-one-brief ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-one-brief ul li:nth-child(1) a {
+    background: url('images/top01.png')no-repeat;
+    background-size: cover;
+    height: 12rem;
+    width: 25rem;
+    display: inline-block;
+}
+
+.main-one-brief ul li:nth-child(2) a {
+    background: url('images/top02.jpg')no-repeat;
+    background-size: cover;
+    height: 12rem;
+    width: 25rem;
+    display: inline-block;
+}
+
+.main-one-brief ul li:nth-child(3) a {
+    background: url('images/top03.jpg')no-repeat;
+    background-size: cover;
+    height: 12rem;
+    width: 25rem;
+    display: inline-block;
+}
+
+.main-one-brief ul li:nth-child(4) a {
+    background: url('images/top04.jpg')no-repeat;
+    background-size: cover;
+    height: 12rem;
+    width: 25rem;
+    display: inline-block;
+}
+
+.main-one-brief ul li:nth-child(5) a {
+    background: url('images/top05.jpg')no-repeat;
+    background-size: cover;
+    height: 12rem;
+    width: 25rem;
+    display: inline-block;
+}
+
+/****第一块内容的中瀑布图*******/
+.main-one .main-one-waterfull {
+    margin-top: 2rem;
+    width: 100%;
+    position: relative;
+}
+
+.waterfull-big-box {
+    width: 25rem;
+    padding-right: 1rem;
+    padding-bottom: 1.2rem;
+    float: left;
+}
+
+.waterfull-small-box {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    border: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+.waterfull-small-box img {
+    width: 100%;
+}
+
+.waterfull-small-box p {
+    font-size: 1.3rem;
+    text-align: left;
+    width: 87%;
+    margin: 0 auto;
+}
+
+.waterfull-small-box .small-box-collect {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    height: 3rem;
+    width: 4rem;
+    color: #fff;
+    background: #E53E49;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 3rem;
+    cursor: pointer;
+    display: none;
+}
+
+.waterfull-small-box .small-box-box {
+    position: absolute;
+    height:3rem;
+    width: 3rem;
+    background: #fff;
+    border-radius: 0.7rem;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    display: none;
+
+}
+
+.waterfull-small-box .small-box-like {
+    background: url('images/action_icons12.png')no-repeat -1.8rem -1.8rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    left: 0.6rem;
+    top: 0.6rem;
+    position: absolute;
+}
+.waterfull-small-box:hover .small-box-box,
+.waterfull-small-box:hover .small-box-collect{
+    display: block;
+}
+/******************主要内容结束***************************/
+
+/********************侧边栏开始****************************/
+#side .side-back{
+    height: 4rem;
+    width:4rem;
+    background:rgba(0, 0, 0, .6);
+    position: fixed;
+    bottom:6rem;
+    right: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    display: none
+}
+#side .side-back span{
+    background: url(images/iconsprite_btbar.png)no-repeat 0 0;
+    height: 2.4rem;
+    width: 2.4rem;
+    display: block;
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem; 
+}
+#side .side-add{
+    height: 4rem;
+    width:4rem;
+    background:rgba(0, 0, 0, .6);
+    position: fixed;
+    bottom:1rem;
+    right: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    display: none;
+}
+#side .side-add span{
+    background: url(images/iconsprite_btbar.png)no-repeat 0 -4rem;
+    height: 2.4rem;
+    width: 2.4rem;
+    display: block;
+    position: absolute;
+    top: 0.75rem;
+    left: 0.75rem; 
+}
+#side .side-add:hover,
+#side .side-back:hover{
+    background: rgba(0, 0, 0, .8);
+}
+/********************侧边栏结束****************************/
